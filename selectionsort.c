@@ -26,7 +26,7 @@ void printArray(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {29, 10, 14, 37, 13};
+    int arr[] = {1,2,3,4,5};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     selectionSort(arr, n);
